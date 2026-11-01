@@ -1,0 +1,13 @@
+# Weld defect classification project
+#
+# ORDER MATTERS on Windows:
+#   1) install PyTorch WITH CUDA first (README step 3), then
+#   2) pip install -r requirements.txt
+# If torch is not installed yet, "pip install ultralytics" pulls the CPU-only PyTorch from PyPI and the GPU is never used.
+#
+# torch / torchvision are deliberately NOT listed here (they must come from the CUDA index of pytorch.org).
+
+ultralytics==8.4.188      # the version this project was developed and tested with
+opencv-python>=4.7        # image reading, camera, drawing
+numpy>=1.23
+matplotlib>=3.3           # graphs
